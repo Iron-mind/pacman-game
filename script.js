@@ -233,7 +233,7 @@ function sketchProc(processing) {
       forEach(row, (block, j)=>{
         
         if (block == 1){                   // pintar pacman
-          processing.fill(255, 102, 0); 
+          processing.fill(255, 0, 0); 
           if(world.time % 2 ==0 ){
             processing.arc(world.pacman.x * BSIZE+BSIZE/2, 
             world.pacman.y * BSIZE+BSIZE/2, BSIZE, BSIZE,world.pacman.start,world.pacman.end); // boca abierta
